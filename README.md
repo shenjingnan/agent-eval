@@ -1,6 +1,6 @@
 # Agent Eval
 
-## Config File `.agnet-eval.json`
+## Config File `.agent-eval.json`
 
 ```json
 {
@@ -38,7 +38,7 @@ eval <agent-name>
 ## Eval specified agent and case
 eval <agent-name> -t <case-name>
 
-## Eval All
+## Eval all
 eval --all
 
 ## Only generated agent output
