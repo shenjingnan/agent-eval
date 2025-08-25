@@ -28,3 +28,32 @@
   |-- reports                 // eval report generated after all eval processed
     |-- summary.json
 ```
+
+## Commands
+
+```bash
+## Eval specified agent
+eval <agent-name>
+
+## Eval specified agent and case
+eval <agent-name> -t <case-name>
+
+## Eval All
+eval --all
+
+## Only generated agent output
+eval <agent-name> --only-output
+
+## Only Eval output
+eval <agent-name> --only-eval
+```
+
+## Config on package.json
+
+```json
+{
+  "scripts": {
+    "eval": "agent-eval"
+  }
+}
+```
