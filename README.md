@@ -9,6 +9,8 @@
 ```
 
 ## Dir Structure
+
+```md
 |- evalution                  // root dir
  |-- agent-name               // agent dir contain all eval cases need exec
    | system-prompt.eval.json  // eval agent's system-prompt for the agent
@@ -25,3 +27,4 @@
      |-- eval.json
   |-- reports                 // eval report generated after all eval processed
     |-- summary.json
+```
